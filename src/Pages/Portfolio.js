@@ -3,7 +3,7 @@ import "./Portfolio.css"
 import DesignsList from "../Components/DesignsList"
 function Portfolio(){
 
-    return <div>
+    return <div  >
       <DesignsList />
     </div>
 }

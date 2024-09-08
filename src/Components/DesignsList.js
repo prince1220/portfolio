@@ -27,8 +27,9 @@ function showShowBox(){
 
  let list=[
     <DesignCard image={image1} description={description1} link={"/projects/swansoup"}/>,
-    <DesignCard image={image2} description={description2} link={"/projects/ahmadharmon"}/>,
+  
     <DesignCard image={image3} description={description3} link={"/projects/hara"}/>,
+    <DesignCard image={image2} description={description2} link={"/projects/ahmadharmon"}/>,
     <DesignCard image={image4} description={description4} link={"/projects/drivingmissdaisy"}/>,
  ]
 
@@ -40,7 +41,7 @@ function showShowBox(){
  
  
     return(
-    <div>
+    <div >
     
         {show && <ShowBox image={image1} description={description1}/>}
 

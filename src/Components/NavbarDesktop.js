@@ -6,7 +6,7 @@ import "./Navbar.css"
 function NavbarDesktop(){
 
   return (
-    <nav className="nav-content desktop"> {/*flex*/}
+    <nav className="nav-content desktop" style={{height:100}}> {/*flex*/}
       <div className="flexbox-logo"> 
          <img className="frontdeskdesigns" src={NavbarLogo} />
       </div>

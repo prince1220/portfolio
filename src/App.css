@@ -74,19 +74,7 @@ nav.sticky .nav-links li a:hover{
  color: #0E2431;
 }
 
-.bio {
- height: 300px;
- width: 100%;
- /*background: url("images/background.png") no-repeat;*/
- background-size: cover;
- background-position: center;
- background-attachment: fixed;
- font-family: 'Poppins','League Spartan';
- font-weight: 200;
- background-color: rgb(255, 255, 255);
- margin-bottom: 400px;
 
-}
 
 
 h2{
@@ -130,33 +118,10 @@ h2{
   color: #605E5E;
 }
 
-.portfolio-project-card{
-  width: 489px;
-  height: 351px;
-  justify-content: center;
-  column-gap: 400px;
-}
 
-.project-card{
-  display: flex;
-  width: 489px;
-  height: 351px;
-}
 
-.portfolio-project-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: left;
-  margin-top: 30px;
-  margin-left: 400px;
-  background-color: #ffffff;
-  width: 1000px;
-  height: 650px;
-  /*border: 2px solid red;*/
-  column-gap: 50px;
-}
- 
+
+
 h4{
   text-align: left;
   margin-bottom: 10px;
@@ -288,14 +253,7 @@ margin-top: 50px;
     }
   }  
 
-@media only screen and (max-width: 1000px){
-  .project-container{
-   display: flex;
-   flex-wrap: wrap;
-   row-gap: 75px;
-   margin-top: 75px;
-  }
-}
+
 
 @media only screen and (max-width: 1000px){
   .project-name-container{
