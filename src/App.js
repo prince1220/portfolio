@@ -15,7 +15,7 @@ import NavbarDesktop from './Components/NavbarDesktop';
 import NavbarSmallScreen from './Components/NavbarSmallScreen';
 function App() {
   return (
-    <div className="App">
+    <div className="App"  >
      
   <BrowserRouter>
  <NavbarDesktop />

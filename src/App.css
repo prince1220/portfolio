@@ -7,6 +7,9 @@
  text-decoration: none;
  font-family: 'Poppins', 'League Spartan';
 }
+.App{
+  width:100vw;
+}
 
 nav{
  position: fixed;
@@ -140,21 +143,12 @@ h4{
 }
 
 
-.card-right{
-  height: 373px;
-  width: 386px;
-}
 
-.Project-image{
-  width: 489px;
-  height: 351px;
-  object-fit: cover;
-  margin-right: 30px;
-}
 
 .page{
   min-height:60vh;
-  margin-top:150px;
+  margin-top:120px;
+
 }
 h1{
   font-size: 20px ;
