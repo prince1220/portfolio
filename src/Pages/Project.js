@@ -72,7 +72,7 @@ export default function Project() {
     const index=listOfProjects.findIndex(item=>item.id==id)
 
   return (
-    <div className="project page">
+    <div className="project" >
 
    <ProjectCarousel images ={listOfProjects[index].images} />
    <ProjectDetails project_name={id} title={listOfProjects[index].title} description={listOfProjects[index].description} />
