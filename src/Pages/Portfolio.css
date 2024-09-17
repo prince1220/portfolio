@@ -27,6 +27,7 @@
 }
 .project-image{
   width:100%;
+  border: 1px solid black;
 }
 @media screen and (max-width:750px) {
   .project-container{

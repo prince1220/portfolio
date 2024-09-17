@@ -1,7 +1,6 @@
 .bio {
   height: 300px;
   width: 100%;
-
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -198,6 +197,7 @@
   .card-paragraph{
     width: 100%;
     text-align: center;
+    justify-content: center;
   }
  }
 
