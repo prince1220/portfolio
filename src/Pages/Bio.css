@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  padding:10px;
+ 
 }
 
 .bio h1{
@@ -20,11 +22,12 @@
   width: 300px;
   line-height: 17px;
 }
-.Project-image{
-  padding:10px;
-  width:50%;
-  align-items:flex-start;
+.Project-image {
+  padding: 0;
+  width: 50%;
+  border: 1px solid black;
 }
+
 .card-right{
 width:50%;
 height:100%;
@@ -32,13 +35,30 @@ padding:50px;
 
 }
 
-@media screen and (max-width:750px) {
-  .Project-image{
-    width:100%;
+@media screen and (max-width: 750px) {
+  .Project-image {
+    width: 100%;
   }
-  .card-right{
-  width:100%;
+  .card-right {
+    width: 100%;
+  }
+}
+
+/* Media query for large screens (min-width: 1200px) */
+@media screen and (min-width: 1200px) {
+  .bio {
+    flex-direction: row;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align the image and text at the top */
   }
 
+  .Project-image {
+    width: 40%; /* Size adjustment for larger screens */
+    margin-right: 20px; /* Add spacing between the image and text */
+  }
 
+  .bio h1, .bio-paragraph {
+    width: 60%; /* Make the text occupy the remaining space next to the image */
+    text-align: left; /* Align the text to the left */
+  }
 }
