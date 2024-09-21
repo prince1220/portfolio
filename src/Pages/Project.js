@@ -26,9 +26,9 @@ import image20 from "../Assets/img/hara_color_pallet.png"
 import image21 from "../Assets/img/hara_style_guide.png"
 import image22 from "../Assets/img/hara_artwork.png"
 
-import image23 from "../Assets/img/hara_style_guide.png"
-import image24 from "../Assets/img/hara_style_guide.png"
-import image25 from "../Assets/img/hara_style_guide.png"
+import image23 from "../Assets/img/Driving_Miss_Daisy.png"
+import image24 from "../Assets/img/driving_miss_daisy_front.png"
+import image25 from "../Assets/img/driving_miss_daisy_back.png"
 
 
 
@@ -59,9 +59,9 @@ let listOfProjects=[
     image:image12
  },
   {
-    id:"drivingmissdassy",
+    id:"drivingmissdaisy",
     title:"Driving Miss Daisy",
-    description:"",
+    description:"The story takes place in the Deep South, in 1948, just prior to the civil rights movement. Having recently destroyed another car, Daisy Werthan, a rich, sharp-tongued Jewish widow of seventy-two, is told by her son, Boolie, that Hoke, her new chauffeur, will be driving her around from now on. Based on the play, written by Alfred Uhry, Driving Miss Daisy won the 1988 Pulitzer Prize For Drama.",
     images:[image23,image24,image25],
     image:image23
   }

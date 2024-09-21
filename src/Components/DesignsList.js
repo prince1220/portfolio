@@ -3,7 +3,7 @@ import ShowBox from "./ShowBox"
 import image1 from "../Assets/img/swan soup.png"
 import image2 from "../Assets/img/ahmad_harmon.png"
 import image3 from "../Assets/img/hara.png"
-import image4 from "../Assets/img/Driving Miss Daisy.png"
+import image4 from "../Assets/img/Driving_Miss_Daisy.png"
 import image5 from "../Assets/img/image_swan.png"
 import image6 from "../Assets/img/swan soup lunch menu.png"
 import { useState } from "react"
@@ -27,7 +27,6 @@ function showShowBox(){
 
  let list=[
     <DesignCard image={image1} description={description1} link={"/projects/swansoup"}/>,
-  
     <DesignCard image={image3} description={description3} link={"/projects/hara"}/>,
     <DesignCard image={image2} description={description2} link={"/projects/ahmadharmon"}/>,
     <DesignCard image={image4} description={description4} link={"/projects/drivingmissdaisy"}/>,
